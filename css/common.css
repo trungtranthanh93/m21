@@ -1,0 +1,152 @@
+/** Global class **/
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+
+/*** HEADER ***/
+.bg-navbar{
+    background-color: #333355;
+}
+.navbar{
+    height: 80px ;
+    color: #fff !important;
+}
+.navbar-main-container .navbar .navbar-brand .logo {height: 125px; transition: all 0.3s ease;background-color: #fff; top: 0px;}
+.navbar-main-container.fixed .navbar .navbar-brand .logo{height: 45px;background-color: #fff;position: static;}
+.navbar-main-container.fixed { top: 0; left: 0; right: 0;}
+.nav-link {
+    color: #fff !important;
+    font-size: 12px;
+}
+/**contact **/
+.contact a::before {
+    content: "\f003";
+    position: absolute;
+    top: 13px;
+    left: 86%;
+    font-family: Fontawesome;
+    font-size: 16px;
+    transform: translateX(-50%);
+}
+/** tel **/
+.tel .number {
+    display: block;
+    margin: 8px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    color : #fff;
+}
+.tel .label-tel {
+    font-size: 12px;
+    color : #fff;
+}
+.contact a {
+    display: block;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+/** body service **/
+#service{
+    padding: 40px 0px 0px 40px;
+}
+.wrap-more {
+	display: flex;
+	width: auto;
+	max-width: 1320px;
+	min-width: 1000px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ .text {
+	box-sizing: border-box;
+	width: 502px;
+	height: 500px;
+	padding: 160px 0 0;
+	background: #0e72ab;
+	background: -webkit-linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
+	background: linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
+	color: #fff;
+  text-align: center;
+  display: block;
+
+}
+.ttl::after{
+content: '';
+	display: block;
+	width: 60px;
+	height: 1px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background: #fff;
+  transform: translateX(-50%);
+}
+.full-width-image {
+    height: auto; 
+    background: url("../image/201802/Q6A9849-1.jpg") no-repeat fixed;
+    background-size: cover;
+  }
+.more a {
+	display: block;
+	box-sizing: border-box;
+	width: 180px;
+	height: 40px;
+	margin: 0 auto;
+	border: 1px solid;
+	position: relative;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	transition: .3s;
+}
+.more a::after {
+	content: "\f178";
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	font-family: Fontawesome;
+	font-weight: normal;
+	transform: translateY(-50%);
+}
+
+/** Button Back top **/
+#btPageTop.off {
+    opacity: 0;
+}
+#btPageTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: .3s;
+}
+.more a:hover {
+	background: #fff;
+	color: #0e72ab;
+}
+/* Banner */
+.banner-box {background: #f5f5f5;}
+.banner-box .banner-item {position: relative;}
+.banner-box .banner-item .blur-banner {content:''; position: absolute; top:0; bottom:0; width: 100%; left:0; background: #f5f5f5 center no-repeat; background-size: 100% auto; filter: blur(15px); z-index: 1;}
+.banner-box .banner-item .image {position: relative; z-index: 2;}
+.banner-box .absolute-box {position: absolute; left:50%; right:0; bottom: 108px; z-index: 10;}
+.banner-box .absolute-box .container {position: relative; left:0; right:0;}
+.banner-box .absolute-box .content-box {background:#295D81; color:#ffff; margin: 0px; padding: 30px 0px; width: 540px;font-family: "Montserrat";font-weight: 700;z-index: -2;opacity:0.8;}
+.banner-box .absolute-box .description {font-size: 18px;}
+.banner-box .owl-stage .owl-item .image {height:538px; background-position: top center; background-repeat: no-repeat;background-size: auto 100%;}
+.banner-box .owl-dots {position: absolute; bottom: 10px; left: 0; right: 0;}
+.banner-box .owl-dots .owl-dot {outline: none;}
+.banner-box .owl-dots .owl-dot span {width:12px;height:12px;background: transparent; border: 1px solid #d6d6d6;}
+.banner-box .owl-dots .owl-dot:hover span {background: transparent; border-color: #0b4da3; box-shadow: 0 0 1px 0px #0b4da3 inset;}
+.banner-box .owl-dots .owl-dot.active span {background: #0b4da3; border-color: #0b4da3;}
