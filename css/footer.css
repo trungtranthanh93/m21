@@ -1,21 +1,187 @@
 /*** FOOTER ***/
 
-.news { padding: 80px 0 120px; }
+.news {
+    padding: 80px 0 120px;
+}
 
-.footer .footer-contact { background-color: #0e72ab; padding: 60px 0; }
-.footer .footer-contact h4, p { color: white; }
-.footer .footer-contact h4 { font-weight: bold; font-size: 24px; line-height: 1; }
-.footer .footer-contact p { font-size: 14px; line-height: 24px; }
-.footer .footer-contact .hotline { display: flex; align-items: flex-start;line-height: 1; }
-.footer .footer-contact button.btn-hotline { background-color: white; border: 0; border-radius: 50%; color: #0e72ab; padding: 20px; font-size: 18px; }
-.footer .footer-contact .hotline-info { padding: 0 0 0 15px; justify-content: center; }
-.footer .footer-contact p.hotline-text { font-size: 14px; margin-bottom: 0; }
-.footer .footer-contact h4.hotline-number { font-size: 26px; font-weight: bold; }
-.footer .footer-contact .btn-contact { background-color: white; color: #0e72ab; border: 0; padding: 23px 0; font-weight: bold; font-size: 18px; border-radius: 4px; width: 309px; cursor: pointer; }
+.news .news-title {
+    text-align: center;
+}
 
-.footer .footer-sitemap { background-color: #333257; padding: 85px 0 100px; }
-.footer .footer-sitemap ul.sitemap-list { list-style: none; }
-.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item a { text-decoration: none; color: white; }
-.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item h5 { color: white; }
+.news .news-title h2.ttl {
+    border-bottom: 2px solid #333;
+    padding: 0 0 20px;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1;
+}
 
-.footer .footer-copyright { background-color: #19192b; color: white; padding: 30px 0; text-align: center; }
+.news dl {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.news dl dt:first-child,
+.news dl dt:first-child+dd {
+    border-top: none;
+}
+
+.news dl dt {
+    width: 280px;
+    position: relative;
+    border-top: 1px solid #ccc;
+    padding: 40px 0 15px;
+    font-size: 14px;
+}
+
+.news dl dt::after {
+    content: 'お知らせ';
+    background: #0e72ab;
+    display: block;
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.news dl dd {
+    width: calc(100% - 280px);
+    border-top: 1px solid #ccc;
+    padding: 40px 0 15px;
+    font-size: 14px;
+}
+
+.news .more {
+    margin: 75px 0 0;
+}
+
+.news .more a {
+    border-color: #ccc;
+    color: #333;
+    display: block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid;
+    position: relative;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.news .more a::after {
+    content: "\f178";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-family: Fontawesome;
+    font-weight: normal;
+    transform: translateY(-50%);
+}
+
+.news .more a:hover {
+    border-color: #0e72ab;
+    background: #0e72ab;
+    color: #fff;
+}
+
+.footer .footer-contact {
+    background-color: #0e72ab;
+    padding: 60px 0;
+}
+
+.footer .footer-contact h4,
+.footer .footer-contact p {
+    color: white;
+}
+
+.footer .footer-contact h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.footer .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer .footer-contact .hotline {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+.footer .footer-contact button.btn-hotline {
+    background-color: white;
+    border: 0;
+    border-radius: 50%;
+    color: #0e72ab;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.footer .footer-contact .hotline-info {
+    padding: 0 0 0 15px;
+    justify-content: center;
+}
+
+.footer .footer-contact p.hotline-text {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer .footer-contact h4.hotline-number {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer .footer-contact .btn-contact {
+    background-color: white;
+    color: #0e72ab;
+    border: 0;
+    padding: 23px 0;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 309px;
+    cursor: pointer;
+}
+
+.footer .footer-sitemap {
+    background-color: #333257;
+    padding: 85px 0 100px;
+}
+
+.footer .footer-sitemap ul.sitemap-list {
+    list-style: none;
+}
+
+.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item h5 {
+    color: white;
+}
+
+.footer .footer-copyright {
+    background-color: #19192b;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
