@@ -60,6 +60,6 @@ $(function(){
 		}
 		headerSize();
 	}).trigger('scroll').trigger('resize');
-	
+
 	
 });
