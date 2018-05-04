@@ -12,8 +12,11 @@
     height: 80px ;
     color: #fff !important;
 }
+.navbar-main-container.fixed .navbar{
+    height: 60px;
+}
 .navbar-main-container .navbar .navbar-brand .logo {height: 125px; transition: all 0.3s ease;background-color: #fff; top: 0px;}
-.navbar-main-container.fixed .navbar .navbar-brand .logo{height: 45px;background-color: #fff;position: static;}
+.navbar-main-container.fixed .navbar .navbar-brand .logo{height: 60px;background-color: #fff;position: absolute;left:0px;top:0px; }
 .navbar-main-container.fixed { top: 0; left: 0; right: 0;}
 .nav-link {
     color: #fff !important;
@@ -76,16 +79,21 @@
 	box-sizing: border-box;
 	width: 502px;
 	height: 500px;
-	padding: 160px 0 0;
-	
-  text-align: center;
+	padding: 160px 0 0;	
   display: block;
 
+}
+.ttl {
+    padding: 0 0 25px;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
 }
 .ttl::after{
 content: '';
 	display: block;
-	width: 60px;
+	width: 136px;
 	height: 1px;
 	position: absolute;
 	left: 50%;
@@ -93,7 +101,23 @@ content: '';
 	background: #fff;
   transform: translateX(-50%);
 }
-
+#about .ttl::after{
+    width: 101px;
+    left: 13%;
+}
+#magokoro .ttl::after{
+    width: 179px;
+    left: 23%;
+    background:#000;
+}
+#report .ttl::after{
+    width: 102px;
+    background:#000;
+}
+#recruit .ttl::after{
+    width: 102px;
+    background:#000;
+}
 #service img{
     width:100%;
     margin-left: -15px;
@@ -174,10 +198,29 @@ content: '';
     width: 100%;
     height: 50%;
 }
+#report .text{
+    width: 100%;
+	height: 100%;
+	padding: 0px;
+}
 #recruit img{
     width: 100%;
     height: 50%;
 }
+#recruit .text{
+    width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+#rere {
+    background: #F2F2F2;
+    height: 756px;
+}
+#rere{
+    padding: 50px 0px 0px 0px;
+}
+
 /* Banner */
 .banner-box {background: #f5f5f5;}
 .banner-box .banner-item {position: relative;}
