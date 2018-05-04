@@ -15,9 +15,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="vendor/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <!-- <link href="css/site.css" rel="stylesheet"> -->
     <link href="css/common.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 
@@ -32,7 +31,13 @@
 
 <body>
     <div class="navbar-main-container " id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
+        <div class="tel-small" style="display: none;">
+            <a href="#">
+                <span class="label-tel">緊急時のご連絡先</span>
+                <span class="number">06-XXXX-XXXX</span>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img class="logo" src="image/logo/ae5d40aacce84313be7be5544aa17401.png">
@@ -77,7 +82,7 @@
                             <a class="nav-link " href="#">SNS</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 my-lg-0" id="con-tel">
                         <div class="contact">
                             <a href="#" class="nav-link">
                                 <span>お問い合わせ</span>
@@ -86,7 +91,7 @@
                         <div class="tel">
                             <a href="#">
                                 <span class="label-tel">緊急時のご連絡先</span>
-                                <span class="number">047-XXX-XXX</span>
+                                <span class="number">06-XXXX-XXXX</span>
                             </a>
                         </div>
                     </form>
@@ -116,44 +121,44 @@
             <div class="image" style="background-image: url(image/201803/shutterstock_745954363.jpg)"></div>
         </div>
     </div>
-    <div id="service">
+    <div id="service" class="pd-top-ct pd-bot-ct">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-5 offset-md-1 text" align="center">
+                <div class="col-md-4 offset-md-1 text padding-0" align="center">
                     <h2 class="ttl">サービス概要</h2>
                     <p class="trans-en">Service</p>
-                    <p>Đây là phần dịch vụ</p>
+                    <h6 class="my-5">Đây là phần dịch vụ</h6>
                     <div class="more">
                         <a href="#">MORE</a>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <img src="image/201802/Q6A9849-1.jpg" atl="img">
+                <div class="col-md-6 padding-0">
+                    <img id="img-service" src="image/201802/Q6A9849-1.jpg" atl="img" />
                 </div>
             </div>
         </div>
     </div>
     </div>
-    <div id="about">
+    <div id="about" class="pd-top-ct pd-bot-ct">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 offset-md-1 text" text-align="left">
+                <div class="col-md-3 offset-md-1 text" text-align="left">
                     <h2 class="ttl">会社概要</h2>
-                    <p class="trans-en">About</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <p>まごころサポートのコンサルティング、支援</p>
-                    <p>新聞販売店への経営コンサルティング</p>
+                    <h6 class="trans-en">About</h6>
+                    <h6 class="mt-5">新聞販売店への経営コンサルティング</h6>
+                    <h6>まごころサポートのコンサルティング、支援</h6>
+                    <h6 class="mb-5">新聞販売店への経営コンサルティング</h6>
                     <div class="more">
                         <a href="#">MORE</a>
                     </div>
                 </div>
-                <div class="col-md-7" id="image-about">
-                    <img src="image/201802/Q6A9631-2.jpg" atl="img" />
+                <div class="col-md-7 offset-md-1 padding-0" id="image-about">
+                    <img id="img-about" src="image/201802/Q6A9631-2.jpg" atl="img" />
                 </div>
             </div>
         </div>
     </div>
-    <div id="magokoro">
+    <div id="magokoro" class="pd-top-ct pd-bot-ct">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8" id="image-about">
@@ -162,9 +167,9 @@
                 <div class="col-md-4  text" text-align="left">
                     <h2 class="ttl">まごころサポート</h2>
                     <p class="trans-en">magokoro</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <p>まごころサポートのコンサルティング、支援</p>
-                    <p>新聞販売店への経営コンサルティング</p>
+                    <h6 class="mt-5">新聞販売店への経営コンサルティング</h6>
+                    <h6>まごころサポートのコンサルティング、支援</h6>
+                    <h6 class="mb-5">新聞販売店への経営コンサルティング</h6>
                     <div class="more">
                         <a href="#">MORE</a>
                     </div>
@@ -172,31 +177,29 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="rere">
-        <div class="row">
-            <div class="col-md-4 offset-md-2" id="report">
-                <img src="image/201802/Q6A9711-3.jpg" alt="img">
-                <div class="text" align="center">
-                    <h2 class="ttl">会社概要</h2>
-                    <p class="trans-en">report</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <p>まごころサポートのコンサルティング、支援</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <div class="more">
-                        <a href="#">MORE</a>
+    <div class=" pd-top-ct pd-bot-ct" id="rere">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 " id="report">
+                    <img src="image/201802/Q6A9711-3.jpg" alt="img">
+                    <div class="text" align="center">
+                        <h2 class="ttl">会社概要</h2>
+                        <p class="trans-en">report</p>
+                        <span class="my-5">新聞販売店への経営コンサルティング</span>
+                        <div class="more">
+                            <a href="#">MORE</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 offset-md-1" id="recruit">
-                <img src="image/201802/Q6A9778-2.jpg" alt="img">
-                <div class="text" align="center">
-                    <h2 class="ttl">会社概要</h2>
-                    <p class="trans-en">recruit</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <p>まごころサポートのコンサルティング、支援</p>
-                    <p>新聞販売店への経営コンサルティング</p>
-                    <div class="more">
-                        <a href="#">MORE</a>
+                <div class="col-md-5 offset-md-1" id="recruit">
+                    <img src="image/201802/Q6A9778-2.jpg" alt="img">
+                    <div class="text" align="center">
+                        <h2 class="ttl">会社概要</h2>
+                        <p class="trans-en">recruit</p>
+                        <span class="my-5">新聞販売店への経営コンサルティング</span>
+                        <div class="more">
+                            <a href="#">MORE</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -270,23 +273,21 @@
     </div>
 
     <footer class="footer">
-        <div class="contact">
+        <div class="footer-contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md mb-3 mb-md-0">
-                        <div class="info">
-                            <h4>お問い合わせ・お申込みはこちら</h4>
-                            <p>お問い合わせ・ご相談はお電話またはメールにて受け付けております。まずはお気軽にご連絡ください。</p>
-                        </div>
+                    <div class="col">
+                        <h4>お問い合わせ・お申込みはこちら</h4>
+                        <p>お問い合わせ・ご相談はお電話またはメールにて受け付けております。まずはお気軽にご連絡ください。</p>
                     </div>
-                    <div class="col-12 col-sm-12 col-md mb-4 mb-md-0 text-center">
+                    <div class="col text-center">
                         <button class="btn-contact" type="button">
-                            <i class="far fa-envelope fa-lg"></i> お問い合わせ</button>
+                            <i class="fa fa-envelope"></i> お問い合わせ</button>
                     </div>
-                    <div class="col-12 col-sm-12 col-md">
+                    <div class="col hotline">
                         <div class="hotline">
                             <button class="btn-hotline">
-                                <i class="fas fa-phone fa-lg fa-flip-horizontal"></i>
+                                <i class="fa fa-phone fa-x2 "></i>
                             </button>
                             <div class="hotline-info">
                                 <p class="hotline-text">緊急時のご連絡先</p>
