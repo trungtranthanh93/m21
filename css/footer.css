@@ -30,21 +30,21 @@
 }
 
 .news dl dt {
-    width: 100%;
+    width: 280px;
     position: relative;
     border-top: 1px solid #ccc;
+    padding: 40px 0 15px;
     font-size: 14px;
 }
 
-.news dl dt .news-timeline {
-    display: flex;
-    align-items: flex-start;
-}
-
-.news dl dt .news-tag {
+.news dl dt::after {
+    content: 'お知らせ';
     background: #0e72ab;
+    display: block;
     width: 120px;
-    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
     border-radius: 13px;
     color: #fff;
     font-size: 12px;
@@ -55,6 +55,7 @@
 .news dl dd {
     width: calc(100% - 280px);
     border-top: 1px solid #ccc;
+    padding: 40px 0 15px;
     font-size: 14px;
 }
 
@@ -97,41 +98,34 @@
     color: #fff;
 }
 
-.footer .contact {
+.footer .footer-contact {
     background-color: #0e72ab;
     padding: 60px 0;
 }
 
-.footer .contact h4,
-.footer .contact p {
+.footer .footer-contact h4,
+.footer .footer-contact p {
     color: white;
 }
 
-.footer .contact h4 {
+.footer .footer-contact h4 {
     font-weight: bold;
     font-size: 24px;
     line-height: 1;
 }
 
-.footer .contact p {
+.footer .footer-contact p {
     font-size: 14px;
     line-height: 24px;
 }
 
-.footer .contact .info {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px 0 20px;
-}
-
-.footer .contact .hotline {
+.footer .footer-contact .hotline {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
     line-height: 1;
 }
 
-.footer .contact button.btn-hotline {
+.footer .footer-contact button.btn-hotline {
     background-color: white;
     border: 0;
     border-radius: 50%;
@@ -140,22 +134,22 @@
     font-size: 18px;
 }
 
-.footer .contact .hotline-info {
+.footer .footer-contact .hotline-info {
     padding: 0 0 0 15px;
     justify-content: center;
 }
 
-.footer .contact p.hotline-text {
+.footer .footer-contact p.hotline-text {
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.footer .contact h4.hotline-number {
+.footer .footer-contact h4.hotline-number {
     font-size: 26px;
     font-weight: bold;
 }
 
-.footer .contact .btn-contact {
+.footer .footer-contact .btn-contact {
     background-color: white;
     color: #0e72ab;
     border: 0;
@@ -163,29 +157,29 @@
     font-weight: bold;
     font-size: 18px;
     border-radius: 4px;
-    width: 309px;
+    width: 270px;
     cursor: pointer;
 }
 
-.footer .sitemap {
+.footer .footer-sitemap {
     background-color: #333257;
     padding: 85px 0 100px;
 }
 
-.footer .sitemap ul.sitemap-list {
+.footer .footer-sitemap ul.sitemap-list {
     list-style: none;
 }
 
-.footer .sitemap ul.sitemap-list li.sitemap-list-item a {
+.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item a {
     text-decoration: none;
     color: white;
 }
 
-.footer .sitemap ul.sitemap-list li.sitemap-list-item h5 {
+.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item h5 {
     color: white;
 }
 
-.footer .copyright {
+.footer .footer-copyright {
     background-color: #19192b;
     color: white;
     padding: 30px 0;
