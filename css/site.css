@@ -21,10 +21,7 @@ hr.dashed{border-style:dashed;}
 .text-middle{vertical-align: middle;}
 .margin-center{margin:0 auto;}
 
-.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
-  -ms-touch-action: auto;
-      touch-action: auto;
-}
+
 
 /*** HEADER ***/
 .top-area {position:relative; background-color:#0b4da3; z-index: 1030;}
@@ -326,7 +323,6 @@ content: '';
 .footer-main {padding: 50px 0 40px; background: #fff url("../images/banner/footer-background.jpg") center bottom repeat-x; background-size: auto 100%; }
 .footer-main .logo{width:100%; max-width:280px;}
 .footer-main h4 {margin-left: 15px;}
-.footer .footer-copyright { background-color: #333257; }
 #footer a {color: #0b4da2;}
 
 /*** FIXED ELEMENT ***/
