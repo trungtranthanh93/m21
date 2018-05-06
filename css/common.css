@@ -52,7 +52,7 @@ body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku 
     margin-top: 3rem!important;
 }
 /*** HEADER ***/
-.navbar {
+/* .navbar {
     padding: 0px;
 }
 .bg-navbar{
@@ -88,7 +88,7 @@ body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku 
 .nav-link {
     color: #fff !important;
     font-size: 12px;
-}
+} */
 /**contact **/
 .contact{
     position: relative;
@@ -349,12 +349,12 @@ p {
 .banner-box .owl-dots .owl-dot.active span {background: #0b4da3; border-color: #0b4da3;}
 
 .nav-link:hover {background-color: #5C5C76 !important;}
-.dropdown-menu {
+/* .dropdown-menu {
     left: 50%;
     right: auto;
     text-align: center;
     transform: translate(-50%, 0);
-  }
+  } */
 
 /** Drop down color **/
 .dropdown {list-style: none; background:    #333257;  display: inline-block;}

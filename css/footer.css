@@ -1,4 +1,112 @@
-/*** FOOTER ***/
+/*** HEADER ***/
+
+.navbar {
+    padding: 0px;
+}
+
+.bg-navbar {
+    background-color: #333355;
+}
+
+.navbar .container-fluid {
+    padding-left: 100px;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0;
+    margin: 0;
+    height: 80px;
+}
+
+.navbar .navbar-brand .logo {
+    height: 125px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    top: 0px;
+}
+
+.navbar .navbar-nav>li>a {
+    height: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1.5rem;
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    min-width: 12rem;
+    text-align: left;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover {
+    background-color: #5C5C76 !important;
+}
+
+
+.navbar-main-container.fixed {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar-main-container.fixed .navbar .navbar-brand .logo {
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar-main-container.fixed #con-tel .contact span {
+    display: none;
+}
+
+.navbar-main-container.fixed #con-tel .contact a::before {
+    top: 19px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-main-container.fixed #con-tel .tel {
+    width: 210px;
+}
+
+.navbar-main-container.fixed #con-tel .tel a {
+    height: 60px;
+    background-position: 11px 50%;
+    background: url(../image/logo/hdr-tel_small.png) 17px 50% no-repeat;
+    padding: 14px 0 0 62px;
+}
+
+.navbar-main-container.fixed #con-tel .tel .number {
+    font-size: 18px;
+}
+
+.navbar-main-container.fixed #con-tel .tel .label-tel {
+    font-size: 12px;
+}
+
+.navbar-main-container.fixed .dropdown-menu {
+    margin: -0.1rem 0 0;
+}
+
+.navbar-main-container.fixed #con-tel .inline-space {
+    display: none;
+}
 
 .news {
     padding: 80px 0 120px;
@@ -164,6 +272,7 @@
 }
 
 /* FOOTER */
+
 footer .sitemap {
     background-color: #333257;
     padding: 100px 0 85px;
@@ -178,7 +287,6 @@ footer .sitemap h5 {
 footer .sitemap h5 span {
     display: none;
 }
-
 
 footer .sitemap ul.sitemap-list {
     list-style: none;
@@ -199,29 +307,24 @@ footer .copyright {
     text-align: center;
 }
 
-
-@media (max-width: 576px){
+@media (max-width: 576px) {
     footer .sitemap {
         padding: 0;
     }
-
     footer .sitemap .row {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
     footer .sitemap .row {
         border: #fff solid 1px;
         border-top: 0;
         border-left: 0;
         border-right: 0;
     }
-
     footer .sitemap .row .col:nth-child(even) {
         border-right: 0;
         border-left: 0;
     }
-
     footer .sitemap .col {
         padding: 20px 0 20px;
         border: #fff solid 1px;
@@ -229,22 +332,17 @@ footer .copyright {
         border-left: 0;
         margin-bottom: -1px;
     }
-
     footer .sitemap h5 {
         padding-left: 10%;
     }
-
     footer .sitemap h5 span {
         display: inline;
         margin-left: 15%;
     }
-
     footer .sitemap ul.sitemap-list {
         display: none;
     }
-
     footer .copyright {
         padding: 15px 0 20px;
     }
-
 }
