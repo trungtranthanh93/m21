@@ -1,5 +1,5 @@
 /** Global class **/
-body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;}
+body {font-family: Fontawesome,"MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;}
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
     -ms-touch-action: auto;
         touch-action: auto;
@@ -447,6 +447,15 @@ ul {
   }
   .carousel-caption{
     padding-top: 2%;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators .active {
+    background-color: #3072a6;
+    margin: 0 4px;
 }
 
 #carouselExampleIndicators .carousel-caption {
