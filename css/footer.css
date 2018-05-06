@@ -80,6 +80,93 @@
     top: 0px;
 }
 
+/* NAV-SUPPORT */
+
+.navbar .nav-support {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-support .email {
+    border-left: #fff solid 1px;
+    border-right: #fff solid 1px;
+    margin-right: 10px;
+}
+
+.navbar .nav-support .email a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-support .email a:hover {
+    background-color: #5C5C76;
+}
+
+.navbar .nav-support .email a img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+}
+
+.navbar .nav-support .tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-support .tel img {
+    margin-right: 10px;
+}
+
+.navbar .nav-support .tel a {
+    text-decoration: none;
+    line-height: 1;
+    color: #fff;
+}
+
+.navbar .nav-support .tel a .label-tel {
+    font-size: 14px;
+}
+
+.navbar .nav-support .tel a .number {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .nav-support .tel a .number h4 {
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-main-container.fixed .navbar .nav-support .email a span {
+    display: none;
+}
+
+.navbar-main-container.fixed .navbar .nav-support .email a img {
+    width: 100%;
+}
+
+.navbar-main-container.fixed .navbar .nav-support .tel img {
+    width: 15%;
+}
+
+.navbar-main-container.fixed .navbar .nav-support .tel a .label-tel {
+    font-size: 12px;
+}
+
+.navbar-main-container.fixed .navbar .nav-support .tel a .number {
+    margin: 0;
+}
+
+/* ======================= */
+
 .navbar-main-container.fixed #con-tel .contact span {
     display: none;
 }

@@ -1,5 +1,5 @@
 /** Global class **/
-body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;}
+body {font-family: Fontawesome}
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
     -ms-touch-action: auto;
         touch-action: auto;
@@ -132,20 +132,7 @@ body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku 
     background: #ffff;
 }
 /** tel **/
-.tel{
-    width: 260px;
-}
-.tel .number {
-    display: block;
-    margin: 8px 0 0;
-    font-size: 22px;
-    font-weight: bold;
-    color : #fff;
-}
-.tel .label-tel {
-    font-size: 14px;
-    color : #fff;
-}
+
 .contact a {
     display: block;
     box-sizing: border-box;
@@ -536,7 +523,7 @@ ul {
     #mail-contact{
         display: none;
     }
-    #con-tel {
+    /* #con-tel {
         right: 37px;
     }
     #con-tel .tel .number {
@@ -544,7 +531,7 @@ ul {
     }
     #con-tel .tel .label-tel {
         font-size: 9px;
-    }
+    } */
     .menu{
         margin: 0 -15px;
         margin-top: 0px;
@@ -571,7 +558,7 @@ ul {
     }
 }
 @media all and (max-width: 568px) {
-    #con-tel {
+    /* #con-tel {
         right: 24px;
         position: absolute;
     }
@@ -580,7 +567,7 @@ ul {
     }
     .navbar-main-container.fixed #con-tel .tel .number {
     font-size: 12px;
-    }
+    } */
     .menu .row {
         padding: 0px;
     }
