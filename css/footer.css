@@ -350,14 +350,15 @@ section.contact .info p {
 }
 
 section.contact .email button.btn-contact {
-    background: white url('../image/logo/mail-contact.png') no-repeat  21px;
+    background: white url(../image/logo/mail-contact.png) no-repeat 35px;
     color: #0e72ab;
     border: 0;
-    padding: 15px 0;
+    padding: 15px 8px 15px 43px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 4px;
-    width: 100%;
+    width: 239px;
+    text-align: center;
     cursor: pointer;
 }
 
