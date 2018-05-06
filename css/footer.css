@@ -252,14 +252,13 @@
     background-color: #0e72ab;
     border: none;
     color: white;
-    padding: 0px 29px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: -2px 2px;
     cursor: default;
     border-radius: 13px;
+    width: 111px;
 }
 
 .news dl dd {
