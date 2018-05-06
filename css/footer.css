@@ -98,6 +98,8 @@
     color: #fff;
 }
 
+/* FOOTER */
+
 .footer .footer-contact {
     background-color: #0e72ab;
     padding: 60px 0;
@@ -161,25 +163,31 @@
     cursor: pointer;
 }
 
-.footer .footer-sitemap {
+/* FOOTER */
+footer .sitemap {
     background-color: #333257;
-    padding: 85px 0 100px;
+    padding: 100px 0 85px;
 }
 
-.footer .footer-sitemap ul.sitemap-list {
+footer .sitemap h5 {
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+footer .sitemap ul.sitemap-list {
     list-style: none;
+    padding-left: 0;
+    text-align: center;
+    color: white;
 }
 
-.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item a {
+footer .sitemap ul.sitemap-list li.sitemap-list-item a {
     text-decoration: none;
-    color: white;
+    font-weight: bold;
 }
 
-.footer .footer-sitemap ul.sitemap-list li.sitemap-list-item h5 {
-    color: white;
-}
-
-.footer .footer-copyright {
+footer .copyright {
     background-color: #19192b;
     color: white;
     padding: 30px 0;
