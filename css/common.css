@@ -84,7 +84,28 @@ body {font-family: "MKWT21-NotoSans","ヒラギノ角ゴ Pro W3","Hiragino Kaku 
 .navbar-main-container.fixed .dropdown-menu{ margin :-0.1rem 0 0; }
 .navbar-main-container.fixed #con-tel .inline-space{display: none;}
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators .active {
+    background-color: #3072a6;
+    margin: 0 4px;
+}
 
+#carouselExampleIndicators .carousel-caption {
+    right: 0;
+    text-align: left;
+    padding-left: 45px;
+    background-color:#4d7fa4;
+    color: #fffffd;
+    max-width: 500px;
+    opacity: 0.8;
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    bottom: initial;
+}
 .nav-link {
     color: #fff !important;
     font-size: 12px;
