@@ -445,6 +445,34 @@ p {
 ul {
     list-style-type: none;
   }
+  .carousel-caption{
+    padding-top: 2%;
+}
+
+#carouselExampleIndicators .carousel-caption {
+    position: absolute;
+    left: auto;
+    width: 40%;
+    height: 23%;
+    background-color: #4d7fa4;
+    opacity: 0.8;
+    bottom:15%;
+    right:0;
+    text-align: left;
+    padding-left : 3%;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "source-han-sans-japanese", "メイリオ", sans-serif;
+}
+#carouselExampleIndicators .carousel-caption h1{
+    font-size : 5vw;
+    font-weight: bold;
+
+}
+#carouselExampleIndicators .carousel-caption p{
+    font-size : 1.5vw;
+}
+  .carousel :hover{
+    cursor: pointer;
+  }
 @media all and (max-width: 998px) {
     #con-tel {
         position: inherit;
