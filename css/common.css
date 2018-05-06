@@ -1,13 +1,29 @@
 /** Global class **/
 /* body {font-family: Fontawesome} */
 
+.bg-color-light {
+    background-color: #0e72ab !important;
+}
+.bg-line-light{
+    background: #ffff !important;
+}
+.bg-line-dark{
+    background:	#000000 !important;
+}
+.color-text-dark{
+    color: #000000 !important;
+}
+.color-text-light{
+    color: #ffff !important;
+}
 body {
+    word-wrap: break-word;
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif
 }
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
     -ms-touch-action: auto;
         touch-action: auto;
-  }
+}
 .padding-0{
     padding-right:0;
     padding-left:0;
@@ -25,7 +41,7 @@ body {
     padding: 5px 0px 4px;
 }
 .news .container{
-    padding: 0px 185px;
+    padding: 0px 169px;
 }
 .bg-line-light{
     background: #ffff;
@@ -132,12 +148,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-#service .text{
-    background: #0e72ab;
-	background: -webkit-linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    background: linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    color: #fff;
-}
  .text {
 	box-sizing: border-box;
 	height: auto;
@@ -206,11 +216,7 @@ p {
 	transform: translateY(-50%);
 }
 /** About **/
-#about{
-    background: #3072A6;
-	background: -webkit-linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    background: linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-}
+
 #about .text{
     color: #fff;
 }
@@ -281,15 +287,12 @@ p {
    
 }
 
-
-
-
 /** Drop down color **/
 
 .menu{
     margin-top: -30px;
-    padding-left: 229px;
-    padding-right: 73px;
+    padding-left: 163px;
+    padding-right: 135px;
     z-index: 1;
     position: relative;
     text-align: center;
@@ -479,8 +482,12 @@ ul {
     .news dl dd {
         padding: 0 0 20px 35px !important;
         text-align:left !important;
+        font-size :12px !important;
     }
     .news-timeline{
         margin-left: 38px!important;
+    }
+    .news-timeline p {
+        font-size: 14px;
     }
 }
