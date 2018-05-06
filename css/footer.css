@@ -17,6 +17,10 @@
     margin: 0;
 }
 
+.navbar .navbar-nav {
+    margin-left: .7rem;
+}
+
 .navbar .navbar-brand,
 .navbar .navbar-nav>li>a {
     height: 80px;
@@ -29,6 +33,10 @@
     top: 0px;
 }
 
+.navbar .collapse.navbar-collapse.show {
+    background-color: #333355;
+}
+
 .navbar .navbar-nav>li>a {
     font-weight: bold;
     color: #fff;
@@ -37,7 +45,7 @@
 .navbar .navbar-nav .nav-item .nav-link {
     display: table-cell;
     vertical-align: middle;
-    padding: 0 1.5rem;
+    padding: 0 .5rem;
     color: #fff !important;
     font-size: 12px;
 }
@@ -378,6 +386,7 @@ footer .sitemap h5 {
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
+    color: #fff;
 }
 
 footer .sitemap h5 span {
@@ -394,6 +403,7 @@ footer .sitemap ul.sitemap-list {
 footer .sitemap ul.sitemap-list li.sitemap-list-item a {
     text-decoration: none;
     font-weight: bold;
+    color: #fff;
 }
 
 footer .copyright {
@@ -401,6 +411,15 @@ footer .copyright {
     color: white;
     padding: 30px 0;
     text-align: center;
+}
+
+@media (max-width: 576px) {
+    .navbar .container-fluid {
+        padding-left: 0;
+    }
+    .navbar .nav-support .email {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {

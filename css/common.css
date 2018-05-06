@@ -1,5 +1,9 @@
 /** Global class **/
-body {font-family: Fontawesome}
+/* body {font-family: Fontawesome} */
+
+body {
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif
+}
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
     -ms-touch-action: auto;
         touch-action: auto;
