@@ -1,5 +1,6 @@
 /** Global class **/
 /* body {font-family: Fontawesome} */
+
 .bg-color-light {
     background-color: #0e72ab !important;
 }
@@ -16,12 +17,13 @@
     color: #ffff !important;
 }
 body {
+    word-wrap: break-word;
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif
 }
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
     -ms-touch-action: auto;
         touch-action: auto;
-  }
+}
 .padding-0{
     padding-right:0;
     padding-left:0;
@@ -502,5 +504,8 @@ ul {
     }
     .news-timeline{
         margin-left: 38px!important;
+    }
+    .news-timeline p {
+        font-size: 14px;
     }
 }
