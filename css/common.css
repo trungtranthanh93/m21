@@ -25,7 +25,7 @@ body {
     padding: 5px 0px 4px;
 }
 .news .container{
-    padding: 0px 140px;
+    padding: 0px 185px;
 }
 .bg-line-light{
     background: #ffff;
@@ -56,70 +56,13 @@ body {
     padding-left: 60px;
 }
 .more-pd-bot{
-    margin-bottom: 3rem!important;
+    margin-bottom: 30px!important;
 }
 .more-pd-top{
-    margin-top: 3rem!important;
-}
-/*** HEADER ***/
-/* .navbar {
-    padding: 0px;
-}
-.bg-navbar{
-    background-color: #333355;
-}
-.navbar-main-container .navbar-brand, .navbar-nav li a{
-    color: #fff !important;
-    height: 80px;
-}
+    margin-top: 30px!important;
+} 
 
-.navbar-main-container.fixed .navbar-brand, .navbar-nav li a {
-    height: 60px;
-}
-.navbar .navbar-collapse {
-    text-align: center;
-}
-.nav-link {
-    padding: 1.5rem 1rem;
-}
-.navbar-main-container .navbar .navbar-brand .logo {height: 125px; transition: all 0.3s ease;background-color: #fff; top: 0px;}
-.navbar-main-container.fixed .navbar .navbar-brand .logo{height: 60px;background-color: #fff;position: absolute;left:0px;top:0px; }
-.navbar-main-container.fixed { top: 0; left: 0; right: 0;}
-.navbar-main-container.fixed #con-tel .contact span { display: none;}
-.navbar-main-container.fixed #con-tel .contact a::before {top: 19px; left: 48%;transform: translate(-50%,-50%);}
-.navbar-main-container.fixed #con-tel .tel { width: 210px;}
-.navbar-main-container.fixed #con-tel .tel a { height: 60px; background-position: 11px 50%; background: url(../image/logo/hdr-tel_small.png) 17px 50% no-repeat;    padding: 14px 0 0 62px;}
-.navbar-main-container.fixed #con-tel .tel .number { font-size: 18px;}
-.navbar-main-container.fixed #con-tel .tel .label-tel { font-size: 12px;}
-.navbar-main-container.fixed .dropdown-menu{ margin :-0.1rem 0 0; }
-.navbar-main-container.fixed #con-tel .inline-space{display: none;}
 
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
-.carousel-indicators .active {
-    background-color: #3072a6;
-    margin: 0 4px;
-}
-
-#carouselExampleIndicators .carousel-caption {
-    right: 0;
-    text-align: left;
-    padding-left: 45px;
-    background-color:#4d7fa4;
-    color: #fffffd;
-    max-width: 500px;
-    opacity: 0.8;
-    transform: translateY(-50%);
-    transform: translateY(-50%);
-    bottom: initial;
-}
-.nav-link {
-    color: #fff !important;
-    font-size: 12px;
-} */
 /**contact **/
 .contact{
     position: relative;
@@ -337,42 +280,9 @@ p {
     transition-duration: 5s;
    
 }
-/* #magokoro .container{
-    padding-left: 0px;
-    margin-left: initial;
-    padding-right: 0px;
-    margin-right: initial;
-}
-#about .container{
-    padding-left: 0px;
-    margin-left: initial;
-    padding-right: 0px;
-    margin-right: initial;
-} */
 
-/* Banner */
-.banner-box {background: #f5f5f5;}
-.banner-box .banner-item {position: relative;}
-.banner-box .banner-item .blur-banner {content:''; position: absolute; top:0; bottom:0; width: 100%; left:0; background: #f5f5f5 center no-repeat; background-size: 100% auto; filter: blur(15px); z-index: 1;}
-.banner-box .banner-item .image {position: relative; z-index: 2;}
-.banner-box .absolute-box {position: absolute; left:50%; right:0; bottom: 108px; z-index: 10;}
-.banner-box .absolute-box .container {position: relative; left:0; right:0;}
-.banner-box .absolute-box .content-box {background:#295D81; color:#ffff; margin: 0px; padding: 30px 0px; width: 540px;font-weight: 700;z-index: -2;opacity:0.8;}
-.banner-box .absolute-box .description {font-size: 18px;}
-.banner-box .owl-stage .owl-item .image {height:538px; background-position: top center; background-repeat: no-repeat;background-size: auto 100%;}
-.banner-box .owl-dots {position: absolute; bottom: 10px; left: 0; right: 0;}
-.banner-box .owl-dots .owl-dot {outline: none;}
-.banner-box .owl-dots .owl-dot span {width:12px;height:12px;background: transparent; border: 1px solid #d6d6d6;}
-.banner-box .owl-dots .owl-dot:hover span {background: transparent; border-color: #0b4da3; box-shadow: 0 0 1px 0px #0b4da3 inset;}
-.banner-box .owl-dots .owl-dot.active span {background: #0b4da3; border-color: #0b4da3;}
 
-.nav-link:hover {background-color: #5C5C76 !important;}
-/* .dropdown-menu {
-    left: 50%;
-    right: auto;
-    text-align: center;
-    transform: translate(-50%, 0);
-  } */
+
 
 /** Drop down color **/
 .dropdown {list-style: none; background:    #333257;  display: inline-block;}
@@ -466,7 +376,6 @@ ul {
     right:0;
     text-align: left;
     padding-left : 3%;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "source-han-sans-japanese", "メイリオ", sans-serif;
 }
 #carouselExampleIndicators .carousel-caption h1{
     font-size : 5vw;
@@ -479,12 +388,18 @@ ul {
   .carousel :hover{
     cursor: pointer;
   }
+  .news a{
+    text-decoration: underline;
+  }
+  .news-timeline p{
+    font-size:18px;
+}
 @media all and (max-width: 998px) {
     #con-tel {
         position: inherit;
     }
 }
-@media all and (max-width: 667px) {
+@media all and (max-width: 576px) {
     .tel{
         display: inline;
     }
@@ -529,8 +444,8 @@ ul {
         padding-left: 0px;
     }
     #report{
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-top: 29px;
+        padding-bottom: 26px;
     }
     #recruit{
         padding-bottom: 30px;
@@ -542,15 +457,7 @@ ul {
     #mail-contact{
         display: none;
     }
-    /* #con-tel {
-        right: 37px;
-    }
-    #con-tel .tel .number {
-        font-size: 14px;
-    }
-    #con-tel .tel .label-tel {
-        font-size: 9px;
-    } */
+
     .menu{
         margin: 0 -15px;
         margin-top: 0px;
@@ -575,24 +482,23 @@ ul {
     .team.menu-boder{
         border-right:1px solid #ffff;
     }
-}
-@media all and (max-width: 568px) {
-    /* #con-tel {
-        right: 24px;
-        position: absolute;
-    }
-    .navbar-main-container.fixed #con-tel .tel .label-tel {
-        font-size: 8px;
-    }
-    .navbar-main-container.fixed #con-tel .tel .number {
-    font-size: 12px;
-    } */
     .menu .row {
         padding: 0px;
     }
     .menu p{
         margin-bottom: 26px;
     }
-    
-    
+    .news .container{
+        padding: 0px 0px;
+    }
+    .news dl dt::after {
+        right: 30% !important;
+    }
+    .news dl dd {
+        padding: 0 0 20px 35px !important;
+        text-align:left !important;
+    }
+    .news-timeline{
+        margin-left: 38px!important;
+    }
 }
