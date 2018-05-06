@@ -247,8 +247,8 @@
     display: block;
     width: 120px;
     position: absolute;
-    top: 40px;
-    right: 30px;
+    top: 23px;
+    right: -30px;
     border-radius: 13px;
     color: #fff;
     font-size: 12px;
@@ -261,6 +261,7 @@
     border-top: 1px solid #ccc;
     padding: 40px 0 15px;
     font-size: 14px;
+    text-align: right;
 }
 
 .news .more {
