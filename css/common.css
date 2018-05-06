@@ -1,7 +1,19 @@
 /** Global class **/
 /* body {font-family: Fontawesome} */
 .bg-color-light {
-    background-color: #0e72ab;
+    background-color: #0e72ab !important;
+}
+.bg-line-light{
+    background: #ffff !important;
+}
+.bg-line-dark{
+    background:	#000000 !important;
+}
+.color-text-dark{
+    color: #000000 !important;
+}
+.color-text-light{
+    color: #ffff !important;
 }
 body {
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif
@@ -273,9 +285,6 @@ p {
    
 }
 
-
-
-
 /** Drop down color **/
 .dropdown {list-style: none; background:    #333257;  display: inline-block;}
 .dropdown .nav-link {color:#fff; text-decoration: none;}
@@ -298,8 +307,8 @@ p {
 }
 .menu{
     margin-top: -30px;
-    padding-left: 229px;
-    padding-right: 73px;
+    padding-left: 163px;
+    padding-right: 135px;
     z-index: 1;
     position: relative;
     text-align: center;
