@@ -435,6 +435,15 @@ ul {
   .carousel-caption{
     padding-top: 2%;
 }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators .active {
+    background-color: #3072a6;
+    margin: 0 4px;
+}
 
 #carouselExampleIndicators .carousel-caption {
     position: absolute;
