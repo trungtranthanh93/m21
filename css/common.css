@@ -1,6 +1,8 @@
 /** Global class **/
 /* body {font-family: Fontawesome} */
-
+.bg-color-light {
+    background-color: #0e72ab;
+}
 body {
     font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif
 }
@@ -25,7 +27,7 @@ body {
     padding: 5px 0px 4px;
 }
 .news .container{
-    padding: 0px 185px;
+    padding: 0px 169px;
 }
 .bg-line-light{
     background: #ffff;
@@ -132,12 +134,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-#service .text{
-    background: #0e72ab;
-	background: -webkit-linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    background: linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    color: #fff;
-}
  .text {
 	box-sizing: border-box;
 	height: auto;
@@ -206,11 +202,7 @@ p {
 	transform: translateY(-50%);
 }
 /** About **/
-#about{
-    background: #3072A6;
-	background: -webkit-linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-    background: linear-gradient(45deg, #1eb9bb 0%,#0e72ab 100%);
-}
+
 #about .text{
     color: #fff;
 }
@@ -497,6 +489,7 @@ ul {
     .news dl dd {
         padding: 0 0 20px 35px !important;
         text-align:left !important;
+        font-size :12px !important;
     }
     .news-timeline{
         margin-left: 38px!important;

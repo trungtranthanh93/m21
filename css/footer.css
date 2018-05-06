@@ -12,17 +12,21 @@
     padding-left: 100px;
 }
 
-.navbar a.navbar-brand {
-    padding: 0;
-    margin-right: 0;
+.navbar .navbar-brand {
+    padding-top: 0;
+    margin: 0;
 }
 
-.navbar a.navbar-brand,
+.navbar .navbar-nav {
+    margin-left: .7rem;
+}
+
+.navbar .navbar-brand,
 .navbar .navbar-nav>li>a {
     height: 80px;
 }
 
-.navbar a.navbar-brand img.logo {
+.navbar .navbar-brand .logo {
     height: 125px;
     transition: all 0.3s ease;
     background-color: #fff;
@@ -66,24 +70,20 @@
 
 /* NAVBAR FIXED */
 
-.navbar-main-container.fixed .navbar .container-fluid {
-    padding: 0;
-}
-
 .navbar-main-container.fixed {
     top: 0;
     right: 0;
     left: 0;
 }
 
-.navbar-main-container.fixed .navbar a.navbar-brand,
+.navbar-main-container.fixed .navbar,
 .navbar-main-container.fixed .navbar .navbar-nav>li>a,
-.navbar-main-container.fixed .navbar a.navbar-brand .logo {
+.navbar-main-container.fixed .navbar .navbar-brand .logo {
     height: 60px;
 }
 
-.navbar-main-container.fixed a.navbar .navbar-brand .logo {
-    position: relative;
+.navbar-main-container.fixed .navbar .navbar-brand .logo {
+    position: absolute;
     left: 0px;
     top: 0px;
 }
@@ -244,29 +244,26 @@
 .news dl dt {
     width: 280px;
     position: relative;
-    border-top: 1px solid #ccc;
     padding: 40px 0 15px;
     font-size: 14px;
 }
 
-.news dl dt::after {
-    content: 'お知らせ';
-    background: #0e72ab;
-    display: block;
-    width: 120px;
-    position: absolute;
-    top: 23px;
-    right: -30px;
-    border-radius: 13px;
-    color: #fff;
-    font-size: 12px;
+.news dl dt .button {
+    background-color: #0e72ab;
+    border: none;
+    color: white;
+    padding: 0px 29px;
     text-align: center;
-    line-height: 26px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -2px 2px;
+    cursor: default;
+    border-radius: 13px;
 }
 
 .news dl dd {
     width: calc(100% - 280px);
-    border-top: 1px solid #ccc;
     padding: 40px 0 15px;
     font-size: 14px;
     text-align: right;
@@ -314,7 +311,6 @@
 /* CONTACT */
 
 section.contact {
-    background-color: #0e72ab;
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     padding: 60px 10%;
@@ -358,7 +354,7 @@ section.contact .email button.btn-contact {
     background-color: white;
     color: #0e72ab;
     border: 0;
-    padding: 23px 0;
+    padding: 15px 0;
     font-weight: bold;
     font-size: 18px;
     border-radius: 4px;
@@ -398,7 +394,7 @@ section.contact .hotline .hotline-info h4.hotline-number {
         margin-bottom: 20px;
     }
     section.contact .email {
-        grid-column: 2/13;
+        grid-column: 1/13;
         margin-left: 0;
     }
     section.contact .hotline {
@@ -408,8 +404,7 @@ section.contact .hotline .hotline-info h4.hotline-number {
         padding-left: 0;
     }
     section.contact .info h4 {
-        font-size: 16px;
-        text-align: center;
+        font-size: 18px;
         line-height: 1;
         margin: 0 0 10px;
     }
