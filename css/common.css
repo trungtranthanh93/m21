@@ -216,11 +216,7 @@ p {
 }
 #img-service{
     width:100%;
-    height: 500px;
   }
-#about img{
-    height: 455px;
-}
 
 .more a {
 	display: block;
@@ -269,11 +265,12 @@ p {
     bottom: 20px;
     transition: .3s;
 }
-#about .more a:hover {
+
+#service .more a:hover,#about .more a:hover {
 	background: #fff;
 	color: #0e72ab;
 }
-#about .more a{
+#about .more a,#service .more a{
     color: #ffff;
 }
 #report .more a:hover ,#recruit .more a:hover,#magokoro .more a:hover{
@@ -322,6 +319,18 @@ p {
     transition-duration: 5s;
    
 }
+/* #magokoro .container{
+    padding-left: 0px;
+    margin-left: initial;
+    padding-right: 0px;
+    margin-right: initial;
+}
+#about .container{
+    padding-left: 0px;
+    margin-left: initial;
+    padding-right: 0px;
+    margin-right: initial;
+} */
 
 /* Banner */
 .banner-box {background: #f5f5f5;}
@@ -445,7 +454,7 @@ ul {
     }
     .text{
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
         text-align: center;	 
     }
     p{
@@ -469,7 +478,7 @@ ul {
         padding-bottom: 18px;
     }
     #recruit{
-        padding-bottom: 18px;
+        padding-bottom: 30px;
     }
     .pd-serivce {
         padding-left: 0px;
@@ -479,13 +488,13 @@ ul {
         display: none;
     }
     #con-tel {
-        right: 60px;
+        right: 37px;
     }
     #con-tel .tel .number {
-        font-size: 15px;
+        font-size: 14px;
     }
     #con-tel .tel .label-tel {
-        font-size: 10px;
+        font-size: 9px;
     }
     .menu{
         margin: 0 -15px;
@@ -504,7 +513,6 @@ ul {
     }
     .menu .container{
         padding: 0px ;
-        margin-top: 17px;
     }
     .menu-boder{
         border:1px solid  #DADADA;
@@ -512,4 +520,24 @@ ul {
     .team.menu-boder{
         border-right:1px solid #ffff;
     }
+}
+@media all and (max-width: 568px) {
+    #con-tel {
+        right: 24px;
+        position: absolute;
+    }
+    .navbar-main-container.fixed #con-tel .tel .label-tel {
+        font-size: 8px;
+    }
+    .navbar-main-container.fixed #con-tel .tel .number {
+    font-size: 12px;
+    }
+    .menu .row {
+        padding: 0px;
+    }
+    .menu p{
+        margin-bottom: 26px;
+    }
+    
+    
 }
