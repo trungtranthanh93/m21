@@ -175,6 +175,11 @@ footer .sitemap h5 {
     font-weight: bold;
 }
 
+footer .sitemap h5 span {
+    display: none;
+}
+
+
 footer .sitemap ul.sitemap-list {
     list-style: none;
     padding-left: 0;
@@ -192,4 +197,54 @@ footer .copyright {
     color: white;
     padding: 30px 0;
     text-align: center;
+}
+
+
+@media (max-width: 576px){
+    footer .sitemap {
+        padding: 0;
+    }
+
+    footer .sitemap .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    footer .sitemap .row {
+        border: #fff solid 1px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    footer .sitemap .row .col:nth-child(even) {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    footer .sitemap .col {
+        padding: 20px 0 20px;
+        border: #fff solid 1px;
+        border-top: 0;
+        border-left: 0;
+        margin-bottom: -1px;
+    }
+
+    footer .sitemap h5 {
+        padding-left: 10%;
+    }
+
+    footer .sitemap h5 span {
+        display: inline;
+        margin-left: 15%;
+    }
+
+    footer .sitemap ul.sitemap-list {
+        display: none;
+    }
+
+    footer .copyright {
+        padding: 15px 0 20px;
+    }
+
 }
