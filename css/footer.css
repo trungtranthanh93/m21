@@ -12,21 +12,17 @@
     padding-left: 100px;
 }
 
-.navbar .navbar-brand {
-    padding-top: 0;
-    margin: 0;
+.navbar a.navbar-brand {
+    padding: 0;
+    margin-right: 0;
 }
 
-.navbar .navbar-nav {
-    margin-left: .7rem;
-}
-
-.navbar .navbar-brand,
+.navbar a.navbar-brand,
 .navbar .navbar-nav>li>a {
     height: 80px;
 }
 
-.navbar .navbar-brand .logo {
+.navbar a.navbar-brand img.logo {
     height: 125px;
     transition: all 0.3s ease;
     background-color: #fff;
@@ -70,20 +66,24 @@
 
 /* NAVBAR FIXED */
 
+.navbar-main-container.fixed .navbar .container-fluid {
+    padding: 0;
+}
+
 .navbar-main-container.fixed {
     top: 0;
     right: 0;
     left: 0;
 }
 
-.navbar-main-container.fixed .navbar,
+.navbar-main-container.fixed .navbar a.navbar-brand,
 .navbar-main-container.fixed .navbar .navbar-nav>li>a,
-.navbar-main-container.fixed .navbar .navbar-brand .logo {
+.navbar-main-container.fixed .navbar a.navbar-brand .logo {
     height: 60px;
 }
 
-.navbar-main-container.fixed .navbar .navbar-brand .logo {
-    position: absolute;
+.navbar-main-container.fixed a.navbar .navbar-brand .logo {
+    position: relative;
     left: 0px;
     top: 0px;
 }
