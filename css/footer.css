@@ -350,7 +350,16 @@ section.contact .hotline {
     align-items: center;
     padding-left: 36px;
 }
-
+section.contact .hotline .number  {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+section.contact .hotline .number h4 {
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
 section.contact h4,
 section.contact p {
     color: white;
@@ -376,7 +385,7 @@ section.contact .email button.btn-contact {
     font-weight: bold;
     font-size: 20px;
     border-radius: 4px;
-    width: 239px;
+    width: 250px;
     text-align: center;
     cursor: pointer;
 }
