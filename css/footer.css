@@ -17,10 +17,6 @@
     margin-right: 0;
 }
 
-/* .navbar .navbar-nav {
-    margin-left: .7rem;
-} */
-
 .navbar a.navbar-brand img.logo {
     height: 125px;
     transition: all 0.3s ease;
