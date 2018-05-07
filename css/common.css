@@ -121,32 +121,45 @@ body {
     padding-left: 60px;
     padding-right: 60px;
 }
-/* #con-tel .tel a {
-	display: block;
-	box-sizing: border-box;
-	height: 80px;
-	padding: 18px 0 0 82px;
-	background: url(../image/logo/hdr-tel.png) 17px 50% no-repeat;
-	color: #fff;
-	line-height: 1;
-	text-decoration: none;
-	pointer-events: none;
-	transition: .3s;
-} */
 /** body service **/
 .service{
     padding-bottom: 128px;
 }
+.service .pd-serivce .img-zoom .img-service{
+    height: 100%;
+    width: 100%;
+    background: url(../image/201802/service.png) 50% 0 / cover no-repeat; 
+}
+.magokoro .img-zoom .img-magokoro{
+    height: 100%;
+    width: 100%;
+    background: url(../image/201802/magokoro.png) 50% 0 / cover no-repeat; 
+}
+.rere .report .img-zoom .img-report{
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background: url(../image/201802/report.png); 
+}
+.rere .recruit .img-zoom .img-recruit{
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background: url(../image/201802/recruit.png); 
+}
+.about .img-zoom .img-about{
+    height: 100%;
+    width: 100%;
+    background: url(../image/201802/about.jpg) 50% 0 / cover no-repeat; 
+}
 .wrap-more {
-	display: flex;
-	width: auto;
-	max-width: 1320px;
-	min-width: 1000px;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
  .text {
 	box-sizing: border-box;
@@ -185,9 +198,6 @@ p {
     width: 102px;
     background:#000;
 }
-.img-service{
-    width:100%;
-  }
 
 .more a {
 	display: block;
@@ -275,6 +285,15 @@ p {
 .img-zoom{
     position: relative;
     overflow: hidden;
+}
+.img-zoom .trans{
+    max-width: 100%;
+    -moz-transition: transform 5s;
+    -webkit-transition: transform 5s;
+    transition: transform 5s;
+    transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+    transition-duration: 5s;
+   
 }
 .img-zoom img{
     max-width: 100%;
@@ -387,6 +406,9 @@ ul {
     }
 }
 @media all and (max-width: 576px) {
+     .img-zoom .trans{
+        height: 200px !important;
+    }
     .tel{
         display: inline;
     }
@@ -396,9 +418,6 @@ ul {
     }
     .rere{
         padding: 0px;
-    }
-    .about img, .img-service img, .magokoro img, .report img, .recruit  img{
-        height: 200px;
     }
     .about img{
         width: 100%;
