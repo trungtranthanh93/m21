@@ -329,6 +329,7 @@ p {
 }
 .menu a:hover{
     text-decoration: none;
+    transition: opacity .3s;
 }
 .menu-boder{
     border-right:1px solid  #DADADA;
