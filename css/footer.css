@@ -226,7 +226,7 @@
 /* NEWS */
 
 .news {
-    padding: 80px 0 80px;
+    padding: 80px 0;
 }
 
 .news .news-title {
@@ -282,7 +282,7 @@
 }
 
 .news .more {
-    margin: 75px 0 0;
+    margin: 50px 0 0;
 }
 
 .news .more a {
@@ -422,9 +422,16 @@ section.contact .wrap .hotline .hotline-info h4.hotline-number {
     }
 }
 @media (max-width:768px){
+    .news {
+        padding: 50px 0;
+    }
     .news dl dt .button {
         margin-left: 0px;    
     }
+    .news .more {
+        margin: 50px 0 0;
+    }
+   
 }
 
 @media screen and (max-width: 576px) {
