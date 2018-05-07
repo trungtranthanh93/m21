@@ -426,6 +426,16 @@ section.contact .wrap .hotline .hotline-info h4.hotline-number {
     font-weight: bold;
     margin-bottom: 0;
 }
+@media (max-width:992px){
+    .news dl dt .button {
+        margin-left: -35px;    
+    }
+}
+@media (max-width:768px){
+    .news dl dt .button {
+        margin-left: 0px;    
+    }
+}
 
 @media screen and (max-width: 576px) {
     section.contact .wrap {
