@@ -353,7 +353,7 @@ section.contact .wrap .hotline {
     align-self: start;
     display: flex;
     align-items: center;
-    padding-left: 36px;
+    /* padding-left: 36px; */
 }
 
 section.contact .wrap .hotline .number {

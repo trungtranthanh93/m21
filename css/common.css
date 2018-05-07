@@ -5,7 +5,7 @@
     background-color: #0e72ab !important;
 }
 .bg-line-light{
-    background: #ffff !important;
+    background: #fff !important;
 }
 .bg-line-dark{
     background:	#000000 !important;
@@ -14,7 +14,7 @@
     color: #000000 !important;
 }
 .color-text-light{
-    color: #ffff !important;
+    color: #fff !important;
 }
 body {
     word-wrap: break-word;
@@ -44,7 +44,7 @@ body {
     padding: 0px 10vw;
 }
 .bg-line-light{
-    background: #ffff;
+    background: #fff;
 }
 .bg-line-dark{
     background:	#000000;
@@ -66,7 +66,7 @@ body {
 }
 .rere .text{
     border: none;
-    background: #ffff;
+    background: #fff;
 }
 .pd-left{
     padding-left: 60px;
@@ -98,7 +98,7 @@ body {
     width: 1px;
     margin-top: 6px;
     margin-bottom: 6px;
-    background: #ffff;
+    background: #fff;
 }
 /** tel **/
 
@@ -245,7 +245,7 @@ p {
 	color: #0e72ab;
 }
 .about .more a,.service .more a{
-    color: #ffff;
+    color: #fff;
 }
 .report .more a:hover ,.recruit .more a:hover,.magokoro .more a:hover{
 	color: #fff;
@@ -317,7 +317,7 @@ p {
     padding-bottom: 7px;
     display: flex;
     width: 100%;
-    background: #ffff;
+    background: #fff;
     padding-top: 7px;
 }
 .menu a{
@@ -335,21 +335,21 @@ p {
     border-right:1px solid  #DADADA;
 }
 .team.menu-boder{
-    border-right:0px solid #ffff;
+    border-right:0px solid #fff;
 }
 .sitemap a:hover{
     text-decoration: none;
     color: #0056b3;
 }
 .sitemap a{
-    color : #ffff;
+    color : #fff;
 }
 .sitemap {
     background-color: #333355;
     padding-top: 40px;
 }
 .sitemap h5{
-    color: #ffff;
+    color: #fff;
 }
 ul {
     list-style-type: none;
@@ -485,7 +485,7 @@ ul {
         border:1px solid  #DADADA;
     }
     .team.menu-boder{
-        border-right:1px solid #ffff;
+        border-right:1px solid #fff;
     }
     .menu .row {
         padding: 0px;
