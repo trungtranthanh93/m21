@@ -9,7 +9,7 @@ $(function () {
 		var envs = ['xs', 'sm', 'md', 'lg'];
 
 		var $el = $('<div>');
-		// $el.appendTo($('body'));
+		$el.appendTo($('body'));
 
 		for (var i = envs.length - 1; i >= 0; i--) {
 			var env = envs[i];
@@ -102,9 +102,18 @@ $(function () {
 
 	// To top pag
 	$btPageTop.click(function () {
+		$('img').each(function () {
+			if (!(this.src.length > 0)) {
+				//if it has not source
+				console.log('has not');
+				$(this).attr('src', 'some url');
+			}
+		});
 		$("html, body").animate({
 			scrollTop: 0
 		}, "slow");
 		return false;
 	});
+
+	// check image has src
 });

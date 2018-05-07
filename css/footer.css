@@ -35,7 +35,7 @@
 .navbar .navbar-nav .nav-item .nav-link {
     display: flex;
     align-items: center;
-    padding: 0 .5rem;
+    padding: 0 .9rem;
     font-size: 12px;
 }
 
@@ -61,7 +61,7 @@
 
 .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
     font-weight: bold;
-    padding: 1rem 1.5rem;
+    padding: 1rem .9rem;
     display: inline-block;
     width: 100%;
     font-size: 12px;
@@ -137,6 +137,7 @@
 
 .navbar .nav-support .tel img {
     margin-right: 10px;
+    width: 22%;
 }
 
 .navbar .nav-support .tel a {
@@ -220,6 +221,10 @@
     }
     .navbar .navbar-toggler:hover {
         background: #3072a6;
+    }
+
+    .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+        padding: 1rem 2rem;
     }
 }
 
@@ -478,7 +483,7 @@ section.contact .wrap .hotline .hotline-info h4.hotline-number {
         margin: 0 0 10px;
     }
     section.contact .wrap .info p {
-        text-align: center;
+        /* text-align: center; */
         font-size: 12px;
     }
 }
