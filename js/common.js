@@ -9,7 +9,7 @@ $(function () {
 		var envs = ['xs', 'sm', 'md', 'lg'];
 
 		var $el = $('<div>');
-		$el.appendTo($('body'));
+		// $el.appendTo($('body'));
 
 		for (var i = envs.length - 1; i >= 0; i--) {
 			var env = envs[i];
@@ -100,8 +100,11 @@ $(function () {
 		mouseDown = false;
 	});
 
-	// To top page
+	// To top pag
 	$btPageTop.click(function () {
-		$window.scrollTop(0);
-	})
+		$("html, body").animate({
+			scrollTop: 0
+		}, "slow");
+		return false;
+	});
 });
