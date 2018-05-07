@@ -99,4 +99,9 @@ $(function () {
 	$(".carousel").on("mouseup", function (event) {
 		mouseDown = false;
 	});
+
+	// To top page
+	$btPageTop.click(function () {
+		$window.scrollTop(0);
+	})
 });
