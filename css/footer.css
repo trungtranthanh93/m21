@@ -515,6 +515,13 @@ footer .copyright {
 }
 
 @media (max-width: 576px) {
+    
+}
+
+@media (max-width: 768px) {
+    footer .sitemap .container {
+        max-width: 100%;
+    }
     footer .sitemap {
         padding: 0;
     }
