@@ -49,22 +49,22 @@ body {
 .bg-line-dark{
     background:	#000000;
 }
-#service .line-under-text{
+.service .line-under-text{
     width: 140px;
 }
-#about .line-under-text{
+.about .line-under-text{
     width: 97px;
 }
-#magokoro .line-under-text{
+.magokoro .line-under-text{
     width: 190px;
 }
-#report .line-under-text{
+.report .line-under-text{
     width: 94px;
 }
-#recruit .line-under-text{
+.recruit .line-under-text{
     width: 94px;
 }
-#rere .text{
+.rere .text{
     border: none;
     background: #ffff;
 }
@@ -112,16 +112,16 @@ body {
     text-decoration: none;
     transition: .3s;
 }
-#con-tel{
+/* #con-tel{
     position:absolute;
     top:0;
     right:0;
-}
+} */
 .pd-serivce{
     padding-left: 60px;
     padding-right: 60px;
 }
-#con-tel .tel a {
+/* #con-tel .tel a {
 	display: block;
 	box-sizing: border-box;
 	height: 80px;
@@ -132,9 +132,9 @@ body {
 	text-decoration: none;
 	pointer-events: none;
 	transition: .3s;
-}
+} */
 /** body service **/
-#service{
+.service{
     padding-bottom: 128px;
 }
 .wrap-more {
@@ -168,24 +168,24 @@ p {
     line-height: 1;
 }
 
-#about .ttl::after{
+.about .ttl::after{
     width: 101px;
     left: 52px;
 }
-#magokoro .ttl::after{
+.magokoro .ttl::after{
     width: 179px;
     left: 91px;
     background:#000;
 }
-#report .ttl::after{
+.report .ttl::after{
     width: 102px;
     background:#000;
 }
-#recruit .ttl::after{
+.recruit .ttl::after{
     width: 102px;
     background:#000;
 }
-#img-service{
+.img-service{
     width:100%;
   }
 
@@ -217,54 +217,53 @@ p {
 }
 /** About **/
 
-#about .text{
+.about .text{
     color: #fff;
 }
 
 
 /** Button Back top **/
-#btPageTop.off {
+.btPageTop.off {
     opacity: 0;
 }
-#btPageTop {
+.btPageTop {
     position: fixed;
     right: 20px;
     bottom: 20px;
     transition: .3s;
 }
 
-#service .more a:hover,#about .more a:hover {
+.service .more a:hover,.about .more a:hover {
 	background: #fff;
 	color: #0e72ab;
 }
-#about .more a,#service .more a{
+.about .more a,.service .more a{
     color: #ffff;
 }
-#report .more a:hover ,#recruit .more a:hover,#magokoro .more a:hover{
+.report .more a:hover ,.recruit .more a:hover,.magokoro .more a:hover{
 	color: #fff;
 	background: #0e72ab;
 }
 
-#magokoro img{
+.magokoro img{
     margin-left: -14px;
     width: 100%;
 }
-#report img{
+.report img{
     width: 100%;
 }
-#recruit img{
+.recruit img{
     width: 100%;
 }
 
-
-#rere, #service {
+.rere, .service {
     background: #F2F2F2;
 }
-#rere{
+.rere{
     padding-left: 160px;
     padding-right:120px; 
 }
-#rere .text{
+.rere .text{
     padding-top: 2em;
 }
 
@@ -373,6 +372,9 @@ ul {
   .carousel :hover{
     cursor: pointer;
   }
+  .carousel {
+      margin-top: 60px;
+  }
   .news a{
     text-decoration: underline;
   }
@@ -392,13 +394,13 @@ ul {
         padding-bottom: 0px;
         padding-top: 0px;    
     }
-    #rere{
+    .rere{
         padding: 0px;
     }
-    #about img, #img-service img, #magokoro img, #report img, #recruit  img{
+    .about img, .img-service img, .magokoro img, .report img, .recruit  img{
         height: 200px;
     }
-    #about img{
+    .about img{
         width: 100%;
     }
     .more-pd-bot{
@@ -415,7 +417,7 @@ ul {
     p{
         font-size: 11px;
     }
-    #service {
+    .service {
         padding-bottom: 0px;
         padding-top: 40px;
     }
@@ -428,18 +430,18 @@ ul {
     .pd-left{
         padding-left: 0px;
     }
-    #report{
+    .report{
         padding-top: 29px;
         padding-bottom: 26px;
     }
-    #recruit{
+    .recruit{
         padding-bottom: 30px;
     }
     .pd-serivce {
         padding-left: 0px;
         padding-right: 0px;
     }
-    #mail-contact{
+    .mail-contact{
         display: none;
     }
 
