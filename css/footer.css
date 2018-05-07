@@ -2,9 +2,6 @@
 
 .navbar {
     padding: 0px;
-}
-
-.bg-navbar {
     background-color: #333355;
 }
 
@@ -17,14 +14,14 @@
     margin-right: 0;
 }
 
-.navbar a.navbar-brand img.logo {
-    height: 125px;
-    transition: all 0.3s ease;
-    background-color: #fff;
+.navbar .navbar-brand .logo {
     top: 0px;
+    height: 125px;
+    background-color: #fff;
+    transition: all 0.3s ease;
 }
 
-.navbar a.navbar-brand,
+.navbar .navbar-brand,
 .navbar .navbar-nav .nav-item .nav-link {
     height: 80px;
 }
@@ -44,7 +41,6 @@
 
 .navbar .navbar-nav .dropdown {
     list-style: none;
-    background: #333257;
     display: inline-block;
 }
 
@@ -54,13 +50,7 @@
     margin: 0.5rem 0 0;
 }
 
-.navbar .navbar-nav .dropdown .dropdown-menu a:hover {
-    color: #fff;
-    background-color: #5C5C76;
-    border-color: #fff;
-}
-
-.navbar .navbar-nav .nav-item .dropdown-menu {
+.navbar .navbar-nav .dropdown .dropdown-menu {
     margin: 0;
     padding: 0;
     border: 0;
@@ -69,7 +59,7 @@
     text-align: left;
 }
 
-.navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
+.navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
     font-weight: bold;
     padding: 1rem 1.5rem;
     display: inline-block;
@@ -79,14 +69,10 @@
 
 .navbar .navbar-nav .nav-item a:hover,
 .navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover {
-    background-color: #5C5C76 !important;
+    background-color: #5C5C76;
 }
 
 /* NAVBAR FIXED */
-
-.navbar-main-container.fixed .navbar .container-fluid {
-    padding: 0;
-}
 
 .navbar-main-container.fixed {
     top: 0;
@@ -94,9 +80,13 @@
     left: 0;
 }
 
-.navbar-main-container.fixed .navbar a.navbar-brand,
-.navbar-main-container.fixed .navbar .navbar-nav>li>a,
-.navbar-main-container.fixed .navbar .navbar-brand .logo {
+.navbar-main-container.fixed .navbar .container-fluid {
+    padding: 0;
+}
+
+.navbar-main-container.fixed .navbar .navbar-brand,
+.navbar-main-container.fixed .navbar .navbar-brand .logo,
+.navbar-main-container.fixed .navbar .navbar-nav .nav-item .nav-link {
     height: 60px;
 }
 
@@ -512,10 +502,6 @@ footer .copyright {
     color: white;
     padding: 30px 0;
     text-align: center;
-}
-
-@media (max-width: 576px) {
-    
 }
 
 @media (max-width: 768px) {
