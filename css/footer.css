@@ -214,6 +214,10 @@
 }
 
 @media (max-width: 992px) {
+    .navbar .collapse.navbar-collapse.show {
+        max-height: 300px;
+        overflow: auto;
+    }
     .navbar .navbar-toggler {
         height: 60px;
         border: 0;
@@ -326,7 +330,8 @@
 section.contact {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    padding: 60px 6%;;
+    padding: 60px 6%;
+    ;
 }
 
 section.contact .info {
@@ -415,9 +420,7 @@ section.contact .hotline .hotline-info h4.hotline-number {
         background: white url(../image/logo/mail-contact.png) no-repeat 35px;
         padding: 15px 8px 15px 50px;
         width: 74vw;
-
     }
-    
     section.contact .hotline {
         grid-column: span 13;
         margin-top: 20px;
@@ -435,7 +438,6 @@ section.contact .hotline .hotline-info h4.hotline-number {
         text-align: center;
         font-size: 12px;
     }
-    
 }
 
 /* FOOTER */
