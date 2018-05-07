@@ -326,7 +326,7 @@
 section.contact {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    padding: 60px 10%;
+    padding: 60px 6%;;
 }
 
 section.contact .info {
@@ -411,6 +411,13 @@ section.contact .hotline .hotline-info h4.hotline-number {
         grid-column: 1/13;
         margin-left: 0;
     }
+    section.contact .email button.btn-contact {
+        background: white url(../image/logo/mail-contact.png) no-repeat 35px;
+        padding: 15px 8px 15px 50px;
+        width: 74vw;
+
+    }
+    
     section.contact .hotline {
         grid-column: span 13;
         margin-top: 20px;
@@ -428,6 +435,7 @@ section.contact .hotline .hotline-info h4.hotline-number {
         text-align: center;
         font-size: 12px;
     }
+    
 }
 
 /* FOOTER */

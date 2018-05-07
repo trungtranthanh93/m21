@@ -1,12 +1,5 @@
 $(function(){
 	'use strict';
-    $(".banner-box").owlCarousel({
-        items: 1,
-        loop: false,
-        autoPlay: true,
-        nav: false,
-        dots: true
-    });
 	var $window = $(window);
 	var $header = $('#header');
 	var $btPageTop = $('#btPageTop');
