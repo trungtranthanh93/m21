@@ -1,0 +1,19 @@
+.service-detail * {
+    border: red solid 1px;
+}
+
+.service-detail .container-fluid {
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .service-detail {
+        background-color: tomato;
+    }
+    .service-detail h1 {
+        font-size: 26px;
+    }
+    .service-detail h2 {
+        font-size: 20px;
+    }
+}
