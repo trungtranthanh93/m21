@@ -1,14 +1,18 @@
 .service-detail * {
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 .service-detail .container-fluid {
     padding-top: 100px;
 }
 
+.service-detail .service01 p {
+    line-height: 200%;
+}
+
 @media screen and (max-width: 576px) {
     .service-detail {
-        background-color: tomato;
+        /* background-color: tomato; */
     }
     .service-detail h1 {
         font-size: 26px;
@@ -16,4 +20,61 @@
     .service-detail h2 {
         font-size: 20px;
     }
+}
+
+.service-detail .topic {
+    border-bottom: #d4d4d4 solid 1px;
+    border-top: #d4d4d4 solid 1px;
+    margin-bottom: -1px;
+}
+
+.service-detail .topic .title,
+.service-detail .topic .content {
+    display: flex;
+    align-items: center;
+}
+
+.service-detail .topic .title {
+    background-color: #f2f2f2;
+}
+
+.service-detail .topic .title p,
+.service-detail .topic .content p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .service-detail .topic .title p,
+    .service-detail .topic .content p {
+        font-size: 14px;
+    }
+    .service-detail .topic .title,
+    .service-detail .topic .content {
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+}
+
+.service-support {
+    border-top: #f2f2f2 solid 5px;
+}
+
+.service-support .support {
+    height: 75px;
+}
+
+.service-support .support a {
+    display: flex;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.service-support .support a:hover {
+    background-color: #1171ab;
+    color: #fff;
 }
