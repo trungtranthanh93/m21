@@ -1,0 +1,69 @@
+body {
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+}
+.breadcrumb-body{
+    margin-top: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../image/201802/bg-beardcrumb.jpg") 50% 0 / cover no-repeat;
+    opacity:0.8;
+    color: white;
+}
+.breadcrumb-body .d-flex .name{
+    font-size:40px;
+    font-weight: bold;
+}
+.breadcrumb-body .d-flex .line-under{
+    content: '';
+    display: block;
+    width: 237px;
+    height: 1px;
+    background:white;
+}
+.breadcrumb-body .d-flex ol.breadcrumb{
+    background-color :initial ;
+}
+.breadcrumb-body .d-flex .breadcrumb .breadcrumb-item a{
+    color : white;
+}
+.breadcrumb-body .d-flex .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+    content: "\f054";
+    font-family: Fontawesome;
+    color :#fff;
+    font-weight: normal;
+}
+.service-content{
+    background-color: #F2F2F2;
+    padding: 40px 0; 
+}
+.service-content .d-flex{
+    background-color: #ffffff;
+    font-weight: bold;  
+}
+
+.service-content .d-flex .image img{
+    max-width: 100%;    
+}
+.service-content .d-flex .title{
+    font-size: 30px;
+    font-weight: bold;  
+}
+.service-content .d-flex .more a {
+	display: block;
+    box-sizing: border-box;
+    color: #333;
+	width: 180px;
+	height: 40px;
+	border: 1px solid;
+	position: relative;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	transition: .3s;
+}
+@media (min-width:1217px){
+    .breadcrumb-body{
+        margin-top: 80px;
+    } 
+}

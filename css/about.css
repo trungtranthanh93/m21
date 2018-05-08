@@ -1,0 +1,118 @@
+body {
+    background-color: #F2F2F2;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+}
+.breadcrumb-body{
+    margin-top: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../image/201802/bg-beardcrumb.jpg") 50% 0 / cover no-repeat;
+    opacity:0.8;
+    color: white;
+}
+.breadcrumb-body .d-flex .name{
+    font-size:40px;
+    font-weight: bold;
+}
+.breadcrumb-body .d-flex .line-under{
+    content: '';
+    display: block;
+    width: 237px;
+    height: 1px;
+    background:white;
+}
+.breadcrumb-body .d-flex ol.breadcrumb{
+    background-color :initial ;
+}
+.breadcrumb-body .d-flex .breadcrumb .breadcrumb-item a{
+    color : white;
+}
+.breadcrumb-body .d-flex .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
+    content: "\f054";
+    font-family: Fontawesome;
+    color :#fff;
+    font-weight: normal;
+}
+@media (min-width:1217px){
+    .breadcrumb-body{
+        margin-top: 80px;
+    } 
+}
+.about-content {
+    background-color: #ffffff;
+}
+.about-content .content .line-under{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 2px;
+    background:black;
+}
+.about-content .content .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-content .form-contact .mandatory{
+    background: #A03131;
+    color: #FDFCFA;
+}
+.about-content .form-contact .name{
+    font-weight: bold;
+}
+.about-content .form-contact .dropdown .btn{
+    text-align: left;
+}
+.about-content .form-contact .dropdown  .dropdown-menu {
+    background-color: #DDDDDD;
+    width: 100%;
+}
+.about-content .form-contact .dropdown-body{
+    width: 69%;
+}
+.about-content .form-contact .dropdown .dropdown-toggle::after {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -0.2255em;
+}
+.about-content .policy-accept button{
+    border: none;
+    padding: 0;
+    background: #0e72ab;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 0;
+    position: relative;
+}
+@media (max-width:768px){
+    .about-content .form-contact .dropdown-body{
+        width: 100%;
+    }
+}
+.about-content .policy-accept button{
+    border: none;
+    padding: 0;
+    background: #0e72ab;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 0;
+    position: relative;
+}
+.about-content .policy-accept button::after{
+    content: "\f178";
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    font-family: Fontawesome;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
