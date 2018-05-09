@@ -28,6 +28,13 @@ $(function () {
 			$('.collapse').collapse('hide');
 		}
 	});
+	$(".navbar-toggler").click(function(e) {
+		if ($(this).attr("aria-expanded") == "true") {
+			e.preventDefault();
+			return false;
+		}
+	});
+
 
 	// header size and pagetop btn
 	var headerSmall01, headerSmall02 = false;
