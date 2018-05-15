@@ -28,7 +28,7 @@ $(function () {
 			$('.collapse').collapse('hide');
 		}
 	});
-	$(".navbar-toggler").click(function(e) {
+	$(".navbar-toggler").click(function (e) {
 		if ($(this).attr("aria-expanded") == "true") {
 			e.preventDefault();
 			return false;
@@ -109,18 +109,20 @@ $(function () {
 
 	// To top pag
 	$btPageTop.click(function () {
-		$('img').each(function () {
-			if (!(this.src.length > 0)) {
-				//if it has not source
-				console.log('has not');
-				$(this).attr('src', 'some url');
-			}
-		});
 		$("html, body").animate({
 			scrollTop: 0
 		}, "slow");
 		return false;
 	});
 
-	// check image has src
+	// Wordpress header 
+	if ($('#wpadminbar')) {
+		console.log('found');
+		console.log($('#wpadminbar'));
+		
+	} else {
+		console.log('not found');
+
+	}
+
 });

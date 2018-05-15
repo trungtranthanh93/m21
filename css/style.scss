@@ -1,0 +1,84 @@
+/*** HEADER ***/
+
+$hover-color: #5C5C76;
+.navbar {
+    padding: 0px;
+    background-color: #333355;
+    .container-fluid {
+        padding-left: 100px;
+    }
+    .navbar-brand {
+        padding: 0;
+        height: 80px;
+        margin-right: 0;
+        .logo {
+            top: 0px;
+            height: 125px;
+            background-color: #fff;
+            transition: all 0.3s ease;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            &:hover {
+                background-color: $hover-color;
+            }
+            .nav-link {
+                display: flex;
+                align-items: center;
+                height: 80px;
+                color: #fff;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 .9rem;
+            }
+            .dropdown-item {
+                font-weight: bold;
+                color: #fff;
+            }
+            .dropdown {
+                .dropdown-menu {
+                    background-color: #333257;
+                    color: #fff;
+                    margin: 0.5rem 0 0;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    border-radius: 0;
+                    min-width: 12rem;
+                    text-align: left;
+                    .dropdown-item {
+                        font-weight: bold;
+                        padding: 1rem .9rem;
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 12px;
+                        &:hover {
+                            background-color: $hover-color;
+                        }
+                    }
+                }
+            }
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    }
+}
+
+/* NAVBAR FIXED */
+
+.navbar-main-container.fixed {
+    top: 0;
+    right: 0;
+    left: 0;
+    .navbar {
+        .container-fluid {
+            padding: 0;
+        }
+        .navbar-brand .logo,
+        .navbar-nav .nav-item .nav-link {
+            height: 60px;
+        }
+    }
+}

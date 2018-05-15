@@ -1,0 +1,19 @@
+/*** HEADER ***/
+.navbar { padding: 0px; background-color: #333355; }
+.navbar .container-fluid { padding-left: 100px; }
+.navbar .navbar-brand { padding: 0; height: 80px; margin-right: 0; }
+.navbar .navbar-brand .logo { top: 0px; height: 125px; background-color: #fff; transition: all 0.3s ease; }
+.navbar .navbar-nav .nav-item:hover { background-color: #5C5C76; }
+.navbar .navbar-nav .nav-item .nav-link { display: flex; align-items: center; height: 80px; color: #fff; font-size: 12px; font-weight: bold; padding: 0 .9rem; }
+.navbar .navbar-nav .nav-item .dropdown-item { font-weight: bold; color: #fff; }
+.navbar .navbar-nav .nav-item .dropdown .dropdown-menu { background-color: #333257; color: #fff; margin: 0.5rem 0 0; margin: 0; padding: 0; border: 0; border-radius: 0; min-width: 12rem; text-align: left; }
+.navbar .navbar-nav .nav-item .dropdown .dropdown-menu .dropdown-item { font-weight: bold; padding: 1rem .9rem; display: inline-block; width: 100%; font-size: 12px; }
+.navbar .navbar-nav .nav-item .dropdown .dropdown-menu .dropdown-item:hover { background-color: #5C5C76; }
+.navbar .navbar-nav .dropdown:hover .dropdown-menu { display: block; }
+
+/* NAVBAR FIXED */
+.navbar-main-container.fixed { top: 0; right: 0; left: 0; }
+.navbar-main-container.fixed .navbar .container-fluid { padding: 0; }
+.navbar-main-container.fixed .navbar .navbar-brand .logo, .navbar-main-container.fixed .navbar .navbar-nav .nav-item .nav-link { height: 60px; }
+
+/*# sourceMappingURL=style.css.map */
