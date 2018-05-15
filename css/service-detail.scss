@@ -25,7 +25,7 @@ $path-color: #A8A8A8;
             }
         }
     }
-    .grid-container {
+    /* .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(13, 1fr);
@@ -34,11 +34,9 @@ $path-color: #A8A8A8;
         "s1     s3" 
         "s1     s3" 
         "s1     s3" 
-        "s1     s3" 
         "s1     s4" 
         "s1     s4" 
         "s1     s4" 
-        "s2     s4" 
         "s2     s4" 
         "s2     s5" 
         "s2     s5" 
@@ -70,7 +68,7 @@ $path-color: #A8A8A8;
                 color: $font-color;
             }
         }
-    }
+    } */
     .topic {
         border-bottom: $path-color solid 1px;
         border-top: $path-color solid 1px;
@@ -91,6 +89,23 @@ $path-color: #A8A8A8;
         }
     }
     @media screen and (max-width: 576px) {
+        .service-col-1 {
+            .service01 {
+                margin-bottom: 50px;
+            }
+            .service03 {
+                margin-bottom: 50px;
+            }
+        }
+        .service-col-2 {
+            margin-bottom: 50px;
+            .service04 {
+                margin-top: 50px;
+                img:last-of-type {
+                    margin-top: 50px;
+                }
+            }
+        }
         & {
             h1 {
                 font-size: 26px;
@@ -105,8 +120,26 @@ $path-color: #A8A8A8;
         }
     }
     @media screen and (min-width: 576px) {
+        .service-col-1 {
+            .service01 {
+                margin-bottom: 50px;
+            }
+            .service03 {
+                margin-bottom: 50px;
+            }
+        }
+        .service-col-2 {
+            margin-bottom: 50px;
+            .service04 {
+                margin-top: 50px;
+                img:last-of-type {
+                    margin-top: 50px;
+                }
+            }
+        }
         & {
             .topic {
+                border: $path-color solid 1px;
                 .content {
                     border-bottom: $path-color solid 1px;
                     border-top: $path-color solid 1px;
@@ -123,21 +156,24 @@ $path-color: #A8A8A8;
             }
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
+        .service-col-1 {
+            .service01 {
+                margin-bottom: 100px;
+            }
+        }
+        .service-col-2 {
+            .service04 {
+                margin-top: -250px;
+                img:last-of-type {
+                    margin-top: 100px;
+                }
+            }
+        }
         & {
             .topic {
-                border: $path-color solid 1px;
-                .content {
-                    border-bottom: $path-color solid 1px;
-                    border-top: $path-color solid 1px;
-                    margin-bottom: -1px;
-                }
-                .title,
-                .content {
-                    p {
-                        font-size: 14px;
-                    }
-                }
+                border-left: 0;
+                border-right: 0;
             }
         }
     }
