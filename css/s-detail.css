@@ -1,5 +1,3 @@
-.service-detail { /* .grid-container { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(13, 1fr); grid-column-gap: 60px; grid-template-areas:  "s1     s3"  "s1     s3"  "s1     s3"  "s1     s4"  "s1     s4"  "s1     s4"  "s2     s4"  "s2     s5"  "s2     s5"  "s2     s5"  "s2     s5"  "s2     s5"; .service01 { grid-area: s1; } .service02 { grid-area: s2; } .service03 { grid-area: s3 } .service04 { grid-area: s4; } .service05 { grid-area: s5; } .service01, .service02, .service03, .service04, .service05 { p { line-height: 200%; color: $font-color; } }
-} */ }
 .service-detail .head-menu { background-color: #f2f2f2; }
 .service-detail .head-menu ul { overflow: auto; }
 .service-detail .head-menu ul::-webkit-scrollbar { display: none; }
@@ -10,11 +8,15 @@
 .service-detail .topic .title { background-color: #f2f2f2; }
 .service-detail .topic .title, .service-detail .topic .content { padding-top: 15px; padding-bottom: 15px; }
 .service-detail .topic .title p, .service-detail .topic .content p { margin-bottom: 0; font-size: 18px; color: #4C4C4C; }
+.service-detail p { line-height: 200%; }
 @media screen and (max-width: 576px) { .service-detail .service-col-1 .service01 { margin-bottom: 50px; }
   .service-detail .service-col-1 .service03 { margin-bottom: 50px; }
   .service-detail .service-col-2 { margin-bottom: 50px; }
   .service-detail .service-col-2 .service04 { margin-top: 50px; }
   .service-detail .service-col-2 .service04 img:last-of-type { margin-top: 50px; }
+  .service-detail .topic { border: #A8A8A8 solid 1px; }
+  .service-detail .topic .content { border-bottom: #A8A8A8 solid 1px; border-top: #A8A8A8 solid 1px; margin-bottom: -1px; margin-top: -1px; }
+  .service-detail .topic .title p, .service-detail .topic .content p { font-size: 14px; color: #4C4C4C; }
   .service-detail h1 { font-size: 26px; }
   .service-detail h2 { font-size: 20px; }
   .service-detail h1, .service-detail h2 { color: #4C4C4C; } }
@@ -26,8 +28,10 @@
   .service-detail .topic { border: #A8A8A8 solid 1px; }
   .service-detail .topic .content { border-bottom: #A8A8A8 solid 1px; border-top: #A8A8A8 solid 1px; margin-bottom: -1px; margin-top: -1px; }
   .service-detail .topic .title p, .service-detail .topic .content p { font-size: 14px; color: #4C4C4C; } }
-@media screen and (min-width: 768px) { .service-detail .service-col-1 .service01 { margin-bottom: 100px; }
-  .service-detail .service-col-2 .service04 { margin-top: -250px; }
+@media screen and (min-width: 768px) { .service-detail .service-col-1 .service01 { margin-bottom: 100px; padding-right: 30px; }
+  .service-detail .service-col-1 .service03 { padding-left: 30px; }
+  .service-detail .service-col-2 .service02 { padding-right: 30px; }
+  .service-detail .service-col-2 .service04 { padding-left: 30px; margin-top: -250px; }
   .service-detail .service-col-2 .service04 img:last-of-type { margin-top: 100px; }
   .service-detail .topic { border-left: 0; border-right: 0; } }
 

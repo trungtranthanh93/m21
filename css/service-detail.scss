@@ -25,50 +25,6 @@ $path-color: #A8A8A8;
             }
         }
     }
-    /* .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(13, 1fr);
-        grid-column-gap: 60px;
-        grid-template-areas: 
-        "s1     s3" 
-        "s1     s3" 
-        "s1     s3" 
-        "s1     s4" 
-        "s1     s4" 
-        "s1     s4" 
-        "s2     s4" 
-        "s2     s5" 
-        "s2     s5" 
-        "s2     s5" 
-        "s2     s5" 
-        "s2     s5";
-        .service01 {
-            grid-area: s1;
-        }
-        .service02 {
-            grid-area: s2;
-        }
-        .service03 {
-            grid-area: s3
-        }
-        .service04 {
-            grid-area: s4;
-        }
-        .service05 {
-            grid-area: s5;
-        }
-        .service01,
-        .service02,
-        .service03,
-        .service04,
-        .service05 {
-            p {
-                line-height: 200%;
-                color: $font-color;
-            }
-        }
-    } */
     .topic {
         border-bottom: $path-color solid 1px;
         border-top: $path-color solid 1px;
@@ -87,6 +43,9 @@ $path-color: #A8A8A8;
                 color: $font-color;
             }
         }
+    }
+    p {
+        line-height: 200%;
     }
     @media screen and (max-width: 576px) {
         .service-col-1 {
@@ -107,6 +66,22 @@ $path-color: #A8A8A8;
             }
         }
         & {
+            .topic {
+                border: $path-color solid 1px;
+                .content {
+                    border-bottom: $path-color solid 1px;
+                    border-top: $path-color solid 1px;
+                    margin-bottom: -1px;
+                    margin-top: -1px;
+                }
+                .title,
+                .content {
+                    p {
+                        font-size: 14px;
+                        color: $font-color;
+                    }
+                }
+            }
             h1 {
                 font-size: 26px;
             }
@@ -160,10 +135,18 @@ $path-color: #A8A8A8;
         .service-col-1 {
             .service01 {
                 margin-bottom: 100px;
+                padding-right: 30px;
+            }
+            .service03 {
+                padding-left: 30px;
             }
         }
         .service-col-2 {
+            .service02 {
+                padding-right: 30px;
+            }
             .service04 {
+                padding-left: 30px;
                 margin-top: -250px;
                 img:last-of-type {
                     margin-top: 100px;

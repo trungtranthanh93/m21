@@ -1,0 +1,26 @@
+.service-content { background-color: #F2F2F2; }
+.service-content .wrap { position: relative; width: 100%; padding-top: 100%; }
+.service-content .inside { width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; }
+.service-content .inside .image { width: 100%; position: relative; padding-bottom: 56.25%; overflow: hidden; }
+.service-content .inside .image img { position: absolute; margin: auto; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%); max-width: 100%; min-height: 100%; }
+.service-content .inside .image:hover img { transform: translateY(-50%) translateX(-50%) scale(1.5, 1.5); transition: all 4s ease-out; }
+.service-content .inside .content { height: 100%; }
+.service-content .inside .content h2, .service-content .inside .content p { font-weight: bold; }
+.service-content .inside .content .more a:hover { color: #fff; background: #0e72ab; }
+@media screen and (max-width: 576px) { .service-content .inside .content { padding: 15px 10px; }
+  .service-content .inside .content h2 { font-size: 14px; }
+  .service-content .inside .content p { font-size: 10px; }
+  .service-content .inside .content .more a { width: 125px; height: 30px; font-size: 14px; line-height: 30px; }
+  .service-content .inside .content .more a::after { right: 10px; } }
+@media screen and (min-width: 576px) { .service-content .inside .content { padding: 15px 10px; }
+  .service-content .inside .content h2 { font-size: 20px; }
+  .service-content .inside .content p { font-size: 14px; }
+  .service-content .inside .content .more a { width: 125px; height: 30px; font-size: 14px; line-height: 30px; }
+  .service-content .inside .content .more a::after { right: 10px; } }
+@media screen and (min-width: 768px) { .service-content .inside .content h2 { font-size: 14px; }
+  .service-content .inside .content p { font-size: 10px; } }
+@media screen and (min-width: 992px) { .service-content .inside .content { padding: 25px 10px; }
+  .service-content .inside .content h2 { font-size: 20px; }
+  .service-content .inside .content p { font-size: 14px; } }
+
+/*# sourceMappingURL=s-overview.css.map */
