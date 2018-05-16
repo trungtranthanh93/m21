@@ -2,7 +2,7 @@
 .service-content .wrap { position: relative; width: 100%; padding-top: 100%; }
 .service-content .inside { width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; }
 .service-content .inside .image { width: 100%; position: relative; padding-bottom: 56.25%; overflow: hidden; }
-.service-content .inside .image img { position: absolute; margin: auto; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%); max-width: 100%; min-height: 100%; }
+.service-content .inside .image img { position: absolute; margin: auto; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%); min-width: 100%; max-width: 100%; min-height: 100%; transition: all 1s ease-out; }
 .service-content .inside .image:hover img { transform: translateY(-50%) translateX(-50%) scale(1.5, 1.5); transition: all 4s ease-out; }
 .service-content .inside .content { height: 100%; }
 .service-content .inside .content h2, .service-content .inside .content p { font-weight: bold; }

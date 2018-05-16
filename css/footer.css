@@ -107,6 +107,8 @@
     align-items: center;
 }
 
+/* .navbar .nav-support */
+
 .navbar .nav-support .email {
     border-left: #fff solid 1px;
     border-right: #fff solid 1px;
@@ -387,7 +389,7 @@ section.contact .wrap .info p {
 }
 
 section.contact .wrap .email button.btn-contact {
-    background: white url(../image/logo/mail-contact.png) no-repeat 35px;
+    background: white  ;
     color: #0e72ab;
     border: 0;
     padding: 15px 8px 15px 43px;
@@ -397,7 +399,19 @@ section.contact .wrap .email button.btn-contact {
     width: 250px;
     text-align: center;
     cursor: pointer;
+    position: relative;
 }
+/* section.contact .wrap .email button.btn-contact::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    background: black url(../image/logo/email-logo-outline.png);
+    background-size: 100% 100%;
+} */
 
 section.contact .wrap .hotline button.btn-hotline {
     background: white url('../image/logo/tel-contact.png') no-repeat center;
